@@ -1,0 +1,15 @@
+.contenedor{
+  padding: 3rem;
+}
+
+.message-error{
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: all linear 0.2s;
+}
+
+.message-error.show{
+  opacity: 1;
+}
